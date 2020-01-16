@@ -21,19 +21,14 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            //  Territory Dropdown
-            TerritoryDropdown(),
-            //  Shipper Dropdown
-            ShipperDropdown()
-          ],
+          children: <Widget>[TerritoryDropdown(), ShipperDropdown()],
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => {},
         tooltip: 'Continue',
         child: Icon(Icons.arrow_forward),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
