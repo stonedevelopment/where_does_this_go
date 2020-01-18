@@ -1,7 +1,10 @@
-
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:where_does_this_go/bloc/shipper_bloc.dart';
+import 'package:where_does_this_go/model/shipper.dart';
 import 'package:where_does_this_go/view/shipper_dropdown.dart';
-
+import 'package:where_does_this_go/view/store_list.dart';
+import 'package:where_does_this_go/view/territory_dropdown.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.title}) : super(key: key);
@@ -19,8 +22,13 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Column(
-        children: <Widget>[ShipperDropdown()],
+      body: Center(
+        child: Column(
+          children: <Widget>[
+            ShipperDropdown(),
+            StoreList()
+          ],
+        ),
       ),
     );
   }

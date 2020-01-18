@@ -1,5 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:where_does_this_go/bloc/shipper_bloc.dart';
 import 'package:where_does_this_go/model/shipper.dart';
 import 'package:where_does_this_go/repository/shipper_repository.dart';
 
@@ -12,12 +14,13 @@ class _ShipperDropdownState extends State<ShipperDropdown> {
   ShipperRepository repository = ShipperRepository();
 
   List<Shipper> _list;
-  Shipper _value;
 
   @override
   void initState() {
     super.initState();
-    _list = new List();
+    _list = List();
+
+    //  TODO  Does not update after data was imported via website
     repository.query.onChildAdded.listen((Event event) {
       setState(() {
         _list.add(Shipper.fromSnapshot(event.snapshot));
@@ -35,12 +38,10 @@ class _ShipperDropdownState extends State<ShipperDropdown> {
         );
       }).toList(),
       onChanged: (value) {
-        setState(() {
-          _value = value;
-        });
+        Provider.of<ShipperBloc>(context, listen: false).select(value);
       },
       hint: Text('Select a shipper from list'),
-      value: _value,
+      value: Provider.of<ShipperBloc>(context).shipper,
     );
   }
 }
