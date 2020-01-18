@@ -1,7 +1,7 @@
 {
   "shippers": [
     {
-      "shipper": "2020 Impulse Shippers",
+      "name": "2020 Impulse Shippers",
       "stores": [
         {
           "Store": "JORDANS KWIK STOP #02",
@@ -15,7 +15,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #03",
@@ -29,7 +29,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #04",
@@ -43,7 +43,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #05",
@@ -57,7 +57,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #06",
@@ -71,7 +71,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #07",
@@ -85,7 +85,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #08",
@@ -99,7 +99,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #09",
@@ -113,7 +113,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #10",
@@ -127,7 +127,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #11",
@@ -141,7 +141,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #12",
@@ -155,7 +155,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #16",
@@ -169,7 +169,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #18",
@@ -183,7 +183,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #19",
@@ -197,7 +197,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #22",
@@ -211,7 +211,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #23",
@@ -225,7 +225,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #25",
@@ -239,7 +239,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #26",
@@ -253,7 +253,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #29",
@@ -267,7 +267,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #30",
@@ -281,7 +281,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #31",
@@ -295,7 +295,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #32",
@@ -309,7 +309,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #34",
@@ -323,7 +323,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #36",
@@ -337,7 +337,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #37",
@@ -351,7 +351,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #38",
@@ -365,7 +365,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #39",
@@ -379,7 +379,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #40",
@@ -393,7 +393,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #41",
@@ -407,7 +407,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #42",
@@ -421,7 +421,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #43",
@@ -435,7 +435,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #45",
@@ -449,7 +449,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #46",
@@ -463,7 +463,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #47",
@@ -477,7 +477,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #48",
@@ -491,7 +491,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #49",
@@ -505,7 +505,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #50",
@@ -519,7 +519,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "JORDANS KWIK STOP #51",
@@ -533,7 +533,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "TOBACCO SUPERCENTER #03",
@@ -547,7 +547,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "3/16/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #7520",
@@ -561,7 +561,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #7534",
@@ -575,7 +575,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #7552",
@@ -589,7 +589,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #7565",
@@ -603,7 +603,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #7566",
@@ -617,7 +617,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #7573",
@@ -631,7 +631,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #7635",
@@ -645,7 +645,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #7648",
@@ -659,7 +659,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #7715",
@@ -673,7 +673,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8544",
@@ -687,7 +687,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8606",
@@ -701,7 +701,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8730",
@@ -715,7 +715,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8756",
@@ -729,7 +729,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8842",
@@ -743,7 +743,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #6800",
@@ -757,7 +757,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #6801",
@@ -771,7 +771,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #6802",
@@ -785,7 +785,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #6803",
@@ -799,7 +799,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8523",
@@ -813,7 +813,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8530",
@@ -827,7 +827,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8533",
@@ -841,7 +841,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8543",
@@ -855,7 +855,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8547",
@@ -869,7 +869,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8674",
@@ -883,7 +883,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8713",
@@ -897,7 +897,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8754",
@@ -911,7 +911,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8765",
@@ -925,7 +925,7 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
         },
         {
           "Store": "MURPHY #8797",
@@ -939,7 +939,950 @@
           "In Store Date": "1/13/2020",
           "Out Date": "4/6/2020",
           "Ship to Store?": "No",
-          "# of Kits": 1
+          "Kits": 1
+        }
+      ]
+    },
+    {
+      "name": "2019 Impulse Shippers",
+      "stores": [
+        {
+          "Store": "JORDANS KWIK STOP #02",
+          "Address": "4502 E NETTLETON",
+          "City": "Jonesboro",
+          "State": "AR",
+          "Zip": 72401,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #03",
+          "Address": "205 S FALLS BLVD",
+          "City": "Wynne",
+          "State": "AR",
+          "Zip": 72396,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #04",
+          "Address": "1623 MALCOLM BLVD",
+          "City": "Newport",
+          "State": "AR",
+          "Zip": 72112,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #05",
+          "Address": "2355 HWY 14B",
+          "City": "Newport",
+          "State": "AR",
+          "Zip": 72112,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #06",
+          "Address": "171 VALLEY STREET",
+          "City": "Arkadelphia",
+          "State": "AR",
+          "Zip": 71923,
+          "Territory": "LIT2",
+          "Rep Name": "SANDRA GARNER",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #07",
+          "Address": "2720 HWY 67 NORTH",
+          "City": "Newport",
+          "State": "AR",
+          "Zip": 72112,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #08",
+          "Address": "7974 HWY 49",
+          "City": "Waldenburg",
+          "State": "AR",
+          "Zip": 72475,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #09",
+          "Address": "900 E JACKSON",
+          "City": "Harrisburg",
+          "State": "AR",
+          "Zip": 72432,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #10",
+          "Address": "1420 MALCOLM AVE",
+          "City": "Newport",
+          "State": "AR",
+          "Zip": 72112,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #11",
+          "Address": "104 HWY 63 B",
+          "City": "Marked Tree",
+          "State": "AR",
+          "Zip": 72365,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #12",
+          "Address": "301 NORTH HWY 63",
+          "City": "Trumann",
+          "State": "AR",
+          "Zip": 72472,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #16",
+          "Address": "1139 WEST MAIN STREET",
+          "City": "Blytheville",
+          "State": "AR",
+          "Zip": 72315,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #18",
+          "Address": "1405 HWY 18",
+          "City": "Lake City",
+          "State": "AR",
+          "Zip": 72437,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #19",
+          "Address": "1450 N FALLS BLVD",
+          "City": "Wynne",
+          "State": "AR",
+          "Zip": 72396,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #22",
+          "Address": "420 E KINGS HWY",
+          "City": "Paragould",
+          "State": "AR",
+          "Zip": 72450,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #23",
+          "Address": "324 NORTHEND AVE",
+          "City": "Paragould",
+          "State": "AR",
+          "Zip": 72450,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #25",
+          "Address": "8222 HWY 49 NORTH",
+          "City": "Brookland",
+          "State": "AR",
+          "Zip": 72417,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #26",
+          "Address": "6125 US HWY 49 NORTH",
+          "City": "Dundee",
+          "State": "MS",
+          "Zip": 38626,
+          "Territory": "STF1",
+          "Rep Name": "DANIEL THROGMORTON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #29",
+          "Address": "221 COOP DR",
+          "City": "Jonesboro",
+          "State": "AR",
+          "Zip": 72401,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #30",
+          "Address": "101 W DEWITT HENERY DR",
+          "City": "Beebe",
+          "State": "AR",
+          "Zip": 72012,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #31",
+          "Address": "3915 E HIGHLAND DRIVE",
+          "City": "Jonesboro",
+          "State": "AR",
+          "Zip": 72401,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #32",
+          "Address": "404 GREENWOOD",
+          "City": "Lepanto",
+          "State": "AR",
+          "Zip": 72354,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #34",
+          "Address": "1908 HWY 67 SOUTH",
+          "City": "Pocahontas",
+          "State": "AR",
+          "Zip": 72455,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #36",
+          "Address": "401 HESTER PARK",
+          "City": "Marked Tree",
+          "State": "AR",
+          "Zip": 72365,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #37",
+          "Address": "1215 NORTH FALLS BLVD",
+          "City": "Wynne",
+          "State": "AR",
+          "Zip": 72396,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #38",
+          "Address": "908 MAIN ST",
+          "City": "Melbourne",
+          "State": "AR",
+          "Zip": 72556,
+          "Territory": "LIT1",
+          "Rep Name": "RONALD GREEN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #39",
+          "Address": "101 BROAD ST",
+          "City": "Lepanto",
+          "State": "AR",
+          "Zip": 72354,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #40",
+          "Address": "4673 HWY 18",
+          "City": "Cash",
+          "State": "AR",
+          "Zip": 72421,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #41",
+          "Address": "8039B HWY 49 NORTH",
+          "City": "Brookland",
+          "State": "AR",
+          "Zip": 72417,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #42",
+          "Address": "2335 N WASHINGTON ST",
+          "City": "Forrest City",
+          "State": "AR",
+          "Zip": 72335,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #43",
+          "Address": "1515 N BANKHEAD",
+          "City": "Carlisle",
+          "State": "AR",
+          "Zip": 72024,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #45",
+          "Address": "2101 N CENTER ST",
+          "City": "Lonoke",
+          "State": "AR",
+          "Zip": 72086,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #46",
+          "Address": "5931 HIGHWAY 14 WEST",
+          "City": "Waldenburg",
+          "State": "AR",
+          "Zip": 72475,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #47",
+          "Address": "800 WEST SPEEDWAY",
+          "City": "Trumann",
+          "State": "AR",
+          "Zip": 72472,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #48",
+          "Address": "670 NORTH SEBASTIAN",
+          "City": "West Helena",
+          "State": "AR",
+          "Zip": 72390,
+          "Territory": "STF1",
+          "Rep Name": "DANIEL THROGMORTON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #49",
+          "Address": "1600 MALCOLM AVE",
+          "City": "Newport",
+          "State": "AR",
+          "Zip": 72112,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #50",
+          "Address": "2917 HWY 63",
+          "City": "Portia",
+          "State": "AR",
+          "Zip": 72457,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "JORDANS KWIK STOP #51",
+          "Address": "108 NORTH BAY DRIVE",
+          "City": "Bay",
+          "State": "AR",
+          "Zip": 72411,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "TOBACCO SUPERCENTER #03",
+          "Address": "632 N SEBASTAIN",
+          "City": "West Helena",
+          "State": "AR",
+          "Zip": 72390,
+          "Territory": "STF1",
+          "Rep Name": "DANIEL THROGMORTON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "3/16/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #7520",
+          "Address": "2720 N WEST AVE",
+          "City": "El Dorado",
+          "State": "AR",
+          "Zip": 71730,
+          "Territory": "LIT4",
+          "Rep Name": "DAVID JOHNSON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #7534",
+          "Address": "2208 SOUTH 5TH STREET",
+          "City": "Leesville",
+          "State": "LA",
+          "Zip": 71446,
+          "Territory": "SHV1",
+          "Rep Name": "OPEN SHV1",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #7552",
+          "Address": "2052 NORTH MALL DRIVE",
+          "City": "Alexandria",
+          "State": "LA",
+          "Zip": 71301,
+          "Territory": "SHV1",
+          "Rep Name": "OPEN SHV1",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #7565",
+          "Address": "5339 HWY 25",
+          "City": "Flowood",
+          "State": "MS",
+          "Zip": 39232,
+          "Territory": "ROUTE 1030",
+          "Rep Name": "RANDY KING",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #7566",
+          "Address": "2528 JACKSON AVE",
+          "City": "Oxford",
+          "State": "MS",
+          "Zip": 38655,
+          "Territory": "STF1",
+          "Rep Name": "DANIEL THROGMORTON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #7573",
+          "Address": "280 ALEXANDER DR.",
+          "City": "Holly Springs",
+          "State": "MS",
+          "Zip": 38635,
+          "Territory": "STF1",
+          "Rep Name": "DANIEL THROGMORTON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #7635",
+          "Address": "3162 HARRISON",
+          "City": "Batesville",
+          "State": "AR",
+          "Zip": 72501,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #7648",
+          "Address": "6241 WESTPORT AVENUE",
+          "City": "Shreveport",
+          "State": "LA",
+          "Zip": 71129,
+          "Territory": "SHV1",
+          "Rep Name": "OPEN SHV1",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #7715",
+          "Address": "1123 N. Pine Street",
+          "City": "Deridder",
+          "State": "LA",
+          "Zip": "70634-2819",
+          "Territory": "SHV1",
+          "Rep Name": "OPEN SHV1",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8544",
+          "Address": "4103 PEMBERTON SQUARE BLVD",
+          "City": "Vicksburg",
+          "State": "MS",
+          "Zip": 39180,
+          "Territory": "JAN2",
+          "Rep Name": "RANDALL SCOTT",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8606",
+          "Address": "2255 W. MAIN ST.",
+          "City": "Tupelo",
+          "State": "MS",
+          "Zip": 38801,
+          "Territory": "STF1",
+          "Rep Name": "DANIEL THROGMORTON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8730",
+          "Address": "1427 AR-367",
+          "City": "Newport",
+          "State": "AR",
+          "Zip": 72112,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8756",
+          "Address": "6715 US HIGHWAY 64",
+          "City": "Oakland",
+          "State": "TN",
+          "Zip": 38060,
+          "Territory": "ROUTE 9130",
+          "Rep Name": "BECKY COOK",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8842",
+          "Address": "8800 BASELINE RD",
+          "City": "Little Rock",
+          "State": "AR",
+          "Zip": 72209,
+          "Territory": "LIT4",
+          "Rep Name": "DAVID JOHNSON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #6800",
+          "Address": "105 US HWY 62",
+          "City": "Ash Flat",
+          "State": "AR",
+          "Zip": 72513,
+          "Territory": "LIT1",
+          "Rep Name": "RONALD GREEN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #6801",
+          "Address": "17305 I-30",
+          "City": "Benton",
+          "State": "AR",
+          "Zip": 72015,
+          "Territory": "LIT4",
+          "Rep Name": "DAVID JOHNSON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #6802",
+          "Address": "208 S ROCKWOOD",
+          "City": "Cabot",
+          "State": "AR",
+          "Zip": 72023,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #6803",
+          "Address": "1510 HWY 25 B N",
+          "City": "Heber Springs",
+          "State": "AR",
+          "Zip": 72543,
+          "Territory": "LIT1",
+          "Rep Name": "RONALD GREEN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8523",
+          "Address": "1601 STADIUM BLVD",
+          "City": "Jonesboro",
+          "State": "AR",
+          "Zip": 72401,
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8530",
+          "Address": "5970 GOODMAN RD",
+          "City": "Olive Branch",
+          "State": "MS",
+          "Zip": 38654,
+          "Territory": "ROUTE 9130",
+          "Rep Name": "BECKY COOK",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8533",
+          "Address": "2516 WEST KINGS HWY",
+          "City": "Paragould",
+          "State": "AR",
+          "Zip": "72450-3922",
+          "Territory": "LIT3",
+          "Rep Name": "JOHN HUFFMAN",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8543",
+          "Address": "6394 RIDGEWOOD RD",
+          "City": "Jackson",
+          "State": "MS",
+          "Zip": "39211-2033",
+          "Territory": "JAN1",
+          "Rep Name": "MICHAEL ALEXANDER",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8547",
+          "Address": "1598 HIGHWAY 15 NORTH",
+          "City": "Laurel",
+          "State": "MS",
+          "Zip": 39440,
+          "Territory": "ROUTE 1030",
+          "Rep Name": "RANDY KING",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8674",
+          "Address": "7705 WINCHESTER RD.",
+          "City": "Memphis",
+          "State": "TN",
+          "Zip": 38125,
+          "Territory": "ROUTE 9130",
+          "Rep Name": "BECKY COOK",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8713",
+          "Address": "5856 SUMMER AVENUE",
+          "City": "Memphis",
+          "State": "TN",
+          "Zip": 38134,
+          "Territory": "ROUTE 9130",
+          "Rep Name": "BECKY COOK",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8754",
+          "Address": "14701 CANTRELL RD",
+          "City": "Little Rock",
+          "State": "AR",
+          "Zip": 72223,
+          "Territory": "LIT4",
+          "Rep Name": "DAVID JOHNSON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8765",
+          "Address": "12600 CHENAL PKWY",
+          "City": "Little Rock",
+          "State": "AR",
+          "Zip": 72211,
+          "Territory": "LIT4",
+          "Rep Name": "DAVID JOHNSON",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
+        },
+        {
+          "Store": "MURPHY #8797",
+          "Address": "111 W PERSHING BLVD",
+          "City": "North Little Rock",
+          "State": "AR",
+          "Zip": 72114,
+          "Territory": "ROUTE 178",
+          "Rep Name": "EDWARD RADKE",
+          "ASM": "JARED STONE",
+          "In Store Date": "1/13/2020",
+          "Out Date": "4/6/2020",
+          "Ship to Store?": "No",
+          "Kits": 1
         }
       ]
     }
