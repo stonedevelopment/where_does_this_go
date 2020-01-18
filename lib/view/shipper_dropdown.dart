@@ -26,6 +26,14 @@ class _ShipperDropdownState extends State<ShipperDropdown> {
         _list.add(Shipper.fromSnapshot(event.snapshot));
       });
     });
+
+    repository.query.onValue.listen((Event event) {
+      print(event);
+      print(event.snapshot);
+      print(event.snapshot.key);
+      print(event.snapshot.value);
+
+    });
   }
 
   @override
