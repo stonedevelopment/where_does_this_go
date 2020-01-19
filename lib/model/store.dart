@@ -15,7 +15,7 @@ class Store {
 
   Store.fromValue(var value)
       : this._name = value[Name],
-        this._territory = value[Territory],
+        this._territory = value[Territory].toString(),
         this._address = value[Address],
         this._city = value[City],
         this._state = value[State];

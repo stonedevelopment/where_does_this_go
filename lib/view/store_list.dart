@@ -86,6 +86,7 @@ class _StoreListState extends State<StoreList> {
       }
     }
 
+    temp.sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
     setState(() {
       _list = temp;
     });
