@@ -1,9 +1,7 @@
-import 'dart:collection';
 
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:where_does_this_go/bloc/bloc.dart';
+import 'package:where_does_this_go/bloc/shipper_bloc.dart';
 import 'package:where_does_this_go/model/shipper.dart';
 import 'package:where_does_this_go/repository/shipper_repository.dart';
 
@@ -15,7 +13,6 @@ class ShipperDropdown extends StatefulWidget {
 class _ShipperDropdownState extends State<ShipperDropdown> {
   ShipperRepository repository = ShipperRepository();
 
-  Shipper _shipper;
   List<Shipper> _list;
 
   @override
@@ -37,7 +34,7 @@ class _ShipperDropdownState extends State<ShipperDropdown> {
       });
 
       if (isOldShipperSelected(old)) {
-        Provider.of<Bloc>(context, listen: false).clearShipper();
+        Provider.of<ShipperBloc>(context, listen: false).clearShipper();
       }
 
       setState(() {
@@ -47,26 +44,22 @@ class _ShipperDropdownState extends State<ShipperDropdown> {
   }
 
   isOldShipperSelected(var oldShipper) {
-    var blocShipper = Provider.of<Bloc>(context, listen: false).shipper;
+    var blocShipper = Provider.of<ShipperBloc>(context, listen: false).shipper;
     return oldShipper == blocShipper;
   }
 
   @override
-  void didChangeDependencies() {
-    super.didChangeDependencies();
-
-    _shipper = Provider.of<Bloc>(context).shipper;
-  }
-
-  @override
   Widget build(BuildContext context) {
-    return DropdownButton(
-      items: buildList(),
-      onChanged: (shipper) {
-        Provider.of<Bloc>(context, listen: false).selectShipper(shipper);
-      },
-      hint: Text('Select a shipper from list'),
-      value: _shipper,
+    return Container(
+      child: DropdownButton(
+        items: buildList(),
+        onChanged: (shipper) {
+          Provider.of<ShipperBloc>(context, listen: false).selectShipper(shipper);
+        },
+        hint: Text('Select a shipper'),
+        disabledHint: Text('There are no shippers to select.'),
+        value: Provider.of<ShipperBloc>(context).shipper,
+      ),
     );
   }
 

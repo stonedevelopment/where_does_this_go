@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:where_does_this_go/bloc/bloc.dart';
+import 'package:where_does_this_go/bloc/shipper_bloc.dart';
+import 'package:where_does_this_go/bloc/territory_bloc.dart';
 import 'package:where_does_this_go/model/shipper.dart';
 import 'package:where_does_this_go/model/store.dart';
 
@@ -26,12 +27,15 @@ class _StoreListState extends State<StoreList> {
   void didChangeDependencies() {
     super.didChangeDependencies();
 
-    updateShipper(Provider.of<Bloc>(context).shipper);
-    updateTerritory(Provider.of<Bloc>(context).territory);
+    updateShipper(Provider.of<ShipperBloc>(context).shipper);
+    updateTerritory(Provider.of<TerritoryBloc>(context).territory);
   }
 
   @override
   Widget build(BuildContext context) {
+    if (_shipper == null) return Container();
+    if (_territory == null) return Container();
+
     return Expanded(
       child: ListView(
         children: buildList(),
@@ -46,7 +50,6 @@ class _StoreListState extends State<StoreList> {
   }
 
   updateTerritory(String territory) {
-    print('${widget.tag} updateTerritory(): $territory vs $_territory');
     if (_territory == territory) return;
 
     _territory = territory;
@@ -54,17 +57,15 @@ class _StoreListState extends State<StoreList> {
   }
 
   buildList() {
-    print('buildList()');
     return _list.map((store) {
       return ListTile(
         title: Text(store.name),
+        subtitle: Text(store.buildAddress()),
       );
     }).toList();
   }
 
   updateList() {
-    print('${widget.tag} updateList()');
-
     setState(() {
       _list.clear();
     });

@@ -2,7 +2,8 @@ import 'dart:collection';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:where_does_this_go/bloc/bloc.dart';
+import 'package:where_does_this_go/bloc/shipper_bloc.dart';
+import 'package:where_does_this_go/bloc/territory_bloc.dart';
 import 'package:where_does_this_go/model/shipper.dart';
 import 'package:where_does_this_go/model/store.dart';
 
@@ -29,12 +30,14 @@ class _TerritoryDropdownState extends State<TerritoryDropdown> {
   void didChangeDependencies() {
     super.didChangeDependencies();
 
-    updateShipper(Provider.of<Bloc>(context).shipper);
-    updateTerritory(Provider.of<Bloc>(context).territory);
+    updateShipper(Provider.of<ShipperBloc>(context).shipper);
+    updateTerritory(Provider.of<TerritoryBloc>(context).territory);
   }
 
   @override
   Widget build(BuildContext context) {
+    if (_shipper == null) return Container();
+
     return DropdownButton(
       items: _list.keys.map((territory) {
         int total = _list[territory];
@@ -44,25 +47,22 @@ class _TerritoryDropdownState extends State<TerritoryDropdown> {
         );
       }).toList(),
       onChanged: (territory) {
-        Provider.of<Bloc>(context, listen: false).selectTerritory(territory);
+        Provider.of<TerritoryBloc>(context, listen: false).selectTerritory(territory);
       },
-      hint: Text('Select a territory from the list'),
-      value: Provider.of<Bloc>(context).territory,
+      hint: Text('Select a territory'),
+      value: Provider.of<TerritoryBloc>(context).territory,
     );
   }
 
   updateShipper(Shipper shipper) {
-    print('${widget.tag} updateShipper(): $shipper');
     if (_shipper == shipper) return;
     _shipper = shipper;
 
-    Provider.of<Bloc>(context, listen: false).selectTerritory(null);
+    Provider.of<TerritoryBloc>(context, listen: false).selectTerritory(null);
   }
 
   updateTerritory(String territory) {
-    print('${widget.tag} updateTerritory(): $territory vs $_territory');
     if (_territory == territory && _territory != null) return;
-
     _territory = territory;
 
     updateList();
