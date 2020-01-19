@@ -3,13 +3,15 @@ import 'package:where_does_this_go/repository/shipper_repository.dart';
 
 class StoreRepository {
   static const String path = 'stores';
-  final FirebaseDatabase database = FirebaseDatabase.instance;
+  static const String name = 'name';
+
   final ShipperRepository repository = ShipperRepository();
 
-  final String key;
+  Query getStoresByShipper(String key) {
+    return repository.ref.child(key).child(path).orderByChild(name);
+  }
 
-  StoreRepository(this.key);
-
-  DatabaseReference get ref => repository.ref.child(key).child(path);
-  Query get query => ref.orderByChild('Store');
+  Query getStoresByTerritory(String key, String territory) {
+    return repository.ref.child(key).child(path).equalTo(territory).orderByChild(name);
+  }
 }

@@ -1,15 +1,21 @@
 import 'package:flutter/cupertino.dart';
 import 'package:where_does_this_go/model/shipper.dart';
 
-class ShipperEvent {}
-
-class ShipperBloc with ChangeNotifier {
+class Bloc with ChangeNotifier {
   Shipper _shipper;
+  String _territory;
 
   Shipper get shipper => _shipper;
 
-  void select(Shipper s) {
+  String get territory => _territory;
+
+  selectShipper(Shipper s) {
     _shipper = s;
+    notifyListeners();
+  }
+
+  selectTerritory(String t) {
+    _territory = t;
     notifyListeners();
   }
 }

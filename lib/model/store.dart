@@ -1,14 +1,27 @@
 import 'package:firebase_database/firebase_database.dart';
 
 class Store {
-  String key;
-  final String territory;
-  final String name;
+  static const String NAME = 'Store';
+  static const String TERRITORY = 'Territory';
 
-  Store(this.territory, this.name);
+  final String _name;
+  final String _territory;
 
-  Store.fromSnapshot(DataSnapshot snapshot) :
-    key = snapshot.key,
-    territory = snapshot.value["Territory"],
-    name = snapshot.value["Store"];
+  Store(this._name, this._territory);
+
+  String get name => _name;
+
+  String get territory => _territory;
+
+  Store.fromValue(var value)
+      : this._name = value[NAME],
+        this._territory = value[TERRITORY];
+
+  @override
+  String toString() {
+    return 'Store.toString() {\n'
+        '    name: $name\n'
+        '    territory: $territory\n'
+        '}';
+  }
 }
