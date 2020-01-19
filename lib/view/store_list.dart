@@ -40,14 +40,14 @@ class _StoreListState extends State<StoreList> {
   }
 
   updateShipper(Shipper shipper) {
-    if (_shipper == shipper && _shipper != null) return;
+    if (_shipper == shipper) return;
 
     _shipper = shipper;
   }
 
   updateTerritory(String territory) {
-    print('${widget.tag} updateTerritory(): $territory');
-    if (_territory == territory && _territory != null) return;
+    print('${widget.tag} updateTerritory(): $territory vs $_territory');
+    if (_territory == territory) return;
 
     _territory = territory;
     updateList();

@@ -30,4 +30,6 @@ class Shipper {
         '    stores: $stores\n'
         '}';
   }
+
+  static indexOf(Shipper old) {}
 }

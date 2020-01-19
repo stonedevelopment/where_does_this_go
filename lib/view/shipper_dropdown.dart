@@ -15,6 +15,7 @@ class ShipperDropdown extends StatefulWidget {
 class _ShipperDropdownState extends State<ShipperDropdown> {
   ShipperRepository repository = ShipperRepository();
 
+  Shipper _shipper;
   List<Shipper> _list;
 
   @override
@@ -24,9 +25,6 @@ class _ShipperDropdownState extends State<ShipperDropdown> {
 
     repository.query.onChildAdded.listen((event) {
       print('onChildAdded');
-      print(event);
-      DataSnapshot snapshot = event.snapshot;
-
       setState(() {
         _list.add(Shipper.fromSnapshot(event.snapshot));
       });
@@ -34,43 +32,50 @@ class _ShipperDropdownState extends State<ShipperDropdown> {
 
     repository.query.onChildChanged.listen((event) {
       print('onChildChanged');
-      print(event);
-      DataSnapshot snapshot = event.snapshot;
-    });
+      var old = _list.singleWhere((entry) {
+        return entry.key == event.snapshot.key;
+      });
 
-    repository.query.onChildMoved.listen((event) {
-      print('onChildMoved');
-      print(event);
-      DataSnapshot snapshot = event.snapshot;
-    });
+      if (isOldShipperSelected(old)) {
+        Provider.of<Bloc>(context, listen: false).clearShipper();
+      }
 
-    repository.query.onChildRemoved.listen((event) {
-      print('onChildRemoved');
-      print(event);
-      DataSnapshot snapshot = event.snapshot;
+      setState(() {
+        _list[_list.indexOf(old)] = Shipper.fromSnapshot(event.snapshot);
+      });
     });
+  }
 
-    repository.query.onValue.listen((event) {
-      print('onValue');
-      print(event);
-      DataSnapshot snapshot = event.snapshot;
-    });
+  isOldShipperSelected(var oldShipper) {
+    var blocShipper = Provider.of<Bloc>(context, listen: false).shipper;
+    return oldShipper == blocShipper;
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+
+    _shipper = Provider.of<Bloc>(context).shipper;
   }
 
   @override
   Widget build(BuildContext context) {
     return DropdownButton(
-      items: _list.map((shipper) {
-        return DropdownMenuItem(
-          child: Text('${shipper.name} (${shipper.stores.length})'),
-          value: shipper,
-        );
-      }).toList(),
-      onChanged: (value) {
-        Provider.of<Bloc>(context, listen: false).selectShipper(value);
+      items: buildList(),
+      onChanged: (shipper) {
+        Provider.of<Bloc>(context, listen: false).selectShipper(shipper);
       },
       hint: Text('Select a shipper from list'),
-      value: Provider.of<Bloc>(context).shipper,
+      value: _shipper,
     );
+  }
+
+  buildList() {
+    return _list.map((shipper) {
+      return DropdownMenuItem(
+        child: Text('${shipper.name} (${shipper.stores.length})'),
+        value: shipper,
+      );
+    }).toList();
   }
 }

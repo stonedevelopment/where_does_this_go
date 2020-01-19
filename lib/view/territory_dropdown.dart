@@ -52,13 +52,15 @@ class _TerritoryDropdownState extends State<TerritoryDropdown> {
   }
 
   updateShipper(Shipper shipper) {
-    if (_shipper == shipper && _shipper != null) return;
+    print('${widget.tag} updateShipper(): $shipper');
+    if (_shipper == shipper) return;
     _shipper = shipper;
 
     Provider.of<Bloc>(context, listen: false).selectTerritory(null);
   }
 
   updateTerritory(String territory) {
+    print('${widget.tag} updateTerritory(): $territory vs $_territory');
     if (_territory == territory && _territory != null) return;
 
     _territory = territory;

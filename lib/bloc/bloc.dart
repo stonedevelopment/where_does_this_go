@@ -9,6 +9,10 @@ class Bloc with ChangeNotifier {
 
   String get territory => _territory;
 
+  clearShipper() {
+    selectShipper(null);
+  }
+
   selectShipper(Shipper s) {
     _shipper = s;
     notifyListeners();
