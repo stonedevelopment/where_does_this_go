@@ -7,7 +7,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="where_does_this_go"
+        android:label="Where Does This Go?"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
