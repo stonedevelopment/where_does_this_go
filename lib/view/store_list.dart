@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:where_does_this_go/bloc/shipper_bloc.dart';
+import 'package:where_does_this_go/bloc/store_list_filters_bloc.dart';
 import 'package:where_does_this_go/bloc/territory_bloc.dart';
 import 'package:where_does_this_go/model/shipper.dart';
 import 'package:where_does_this_go/model/store.dart';
@@ -16,11 +17,14 @@ class _StoreListState extends State<StoreList> {
   List<Store> _list;
   Shipper _shipper;
   String _territory;
+  bool _filterShipToRep;
 
   @override
   void initState() {
     super.initState();
     _list = List();
+    _filterShipToRep = Provider.of<StoreListFiltersBloc>(context, listen: false)
+        .isFilteredByShipToRep;
   }
 
   @override
@@ -29,6 +33,8 @@ class _StoreListState extends State<StoreList> {
 
     updateShipper(Provider.of<ShipperBloc>(context).shipper);
     updateTerritory(Provider.of<TerritoryBloc>(context).territory);
+    updateFilter(
+        Provider.of<StoreListFiltersBloc>(context).isFilteredByShipToRep);
   }
 
   @override
@@ -37,9 +43,7 @@ class _StoreListState extends State<StoreList> {
     if (_territory == null) return Container();
 
     return Expanded(
-      child: ListView(
-        children: buildList(),
-      ),
+      child: _list.length > 0 ? buildListView() : buildTextView(),
     );
   }
 
@@ -56,13 +60,27 @@ class _StoreListState extends State<StoreList> {
     updateList();
   }
 
-  buildList() {
-    return _list.map((store) {
+  updateFilter(bool filter) {
+    if (_filterShipToRep == filter) return;
+
+    _filterShipToRep = filter;
+    updateList();
+  }
+
+  buildTextView() {
+    return Center(
+      child: Text('There are no stores available.'),
+    );
+  }
+
+  buildListView() {
+    return ListView(
+        children: _list.map((store) {
       return ListTile(
         title: Text(store.name),
         subtitle: Text(store.buildAddress()),
       );
-    }).toList();
+    }).toList());
   }
 
   updateList() {
@@ -77,13 +95,14 @@ class _StoreListState extends State<StoreList> {
     var length = _shipper.stores.length;
     for (var i = 0; i < length; i++) {
       Store store = Store.fromValue(_shipper.stores[i]);
-      if (isFilteredByTerritory) {
-        if (store.territory == _territory) {
-          temp.add(store);
-        }
-      } else {
-        temp.add(store);
+
+      if (isFilteredByShipToRep) {
+        if (store.isShipToStore()) continue;
       }
+
+      if (store.territory != _territory) continue;
+
+      temp.add(store);
     }
 
     temp.sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
@@ -92,5 +111,5 @@ class _StoreListState extends State<StoreList> {
     });
   }
 
-  bool get isFilteredByTerritory => _territory != null;
+  bool get isFilteredByShipToRep => _filterShipToRep;
 }
